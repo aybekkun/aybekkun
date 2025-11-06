@@ -1,7 +1,5 @@
-import { PortfolioCard } from "@/components/portfolio-card"
 import { PortfolioList } from "@/components/portfolio-list"
 import { prisma } from "@/prisma"
-import { projects } from "@/shared/data/portfolio.data"
 import { Button, Container, SectionTitle } from "@/shared/ui"
 import Link from "next/link"
 import { Suspense } from "react"

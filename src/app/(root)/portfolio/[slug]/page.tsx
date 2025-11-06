@@ -3,6 +3,19 @@ import { DeatilPortfolio } from "@/components/detail-portfolio"
 import { prisma } from "@/prisma"
 import { Container } from "@/shared/ui"
 
+// Add this function to generate static paths
+export async function generateStaticParams() {
+	const portfolios = await prisma.portfolio.findMany({
+		select: {
+			id: true,
+		},
+	})
+
+	return portfolios.map((portfolio) => ({
+		slug: portfolio.id.toString(),
+	}))
+}
+
 const PortfolioDetailPage = async (context: {
 	params: Promise<{ slug: string }>
 }) => {

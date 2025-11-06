@@ -66,7 +66,7 @@ export const CarouselGallery: React.FC<CarouselGalleryProps> = ({
 				<CarouselContent className="">
 					{images.map((image, index) => (
 						<CarouselItem className="pl-0 basis-full" key={`slide-${index}`}>
-							<Image
+							<img
 								src={image}
 								alt={`Slide ${index + 1}`}
 								className="h-full w-full aspect-video object-cover "
@@ -93,7 +93,7 @@ export const CarouselGallery: React.FC<CarouselGalleryProps> = ({
 							)}
 							onClick={() => api?.scrollTo(index)}
 						>
-							<Image
+							<img
 								src={image}
 								alt={`Thumbnail ${index + 1}`}
 								className="h-full w-full object-cover"

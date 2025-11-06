@@ -36,7 +36,7 @@ export default function AboutMeSection({
 					{/* Profile + Stats */}
 					<div className="flex flex-col items-center md:col-span-5 lg:col-span-4">
 						<div className="border-primary/10 relative mb-8 h-56 w-56 overflow-hidden rounded-full border-4 md:h-64 md:w-64 lg:h-72 lg:w-72">
-							<Image
+							<img
 								src={image}
 								alt={name}
 								className="object-cover w-full h-full"

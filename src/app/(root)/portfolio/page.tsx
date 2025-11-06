@@ -3,7 +3,7 @@ import { prisma } from "@/prisma"
 import { SectionTitle } from "@/shared/ui"
 
 const PorfolioPage = async () => {
-	const [data, count] = await prisma.$transaction([
+	const [data] = await prisma.$transaction([
 		prisma.portfolio.findMany({
 			orderBy: {
 				date: "desc",

@@ -29,7 +29,7 @@ export const PortfolioCard = ({
 		<Card className="group hover:border-primary/30 overflow-hidden pt-0 transition-all duration-300 hover:shadow-lg">
 			{/* Project image */}
 			<div className="relative aspect-video overflow-hidden">
-				<Image
+				<img
 					src={images[0]}
 					alt={title}
 					className="object-cover transition-transform duration-500 group-hover:scale-105"
