@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aybek Kun
 
-## Getting Started
+Персональный сайт и онлайн-портфолио  
+🌐 https://aybekkun.uz/
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👤 Кто я
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Aybek Kun** — frontend-разработчик, специализирующийся на создании современных, быстрых и масштабируемых веб-приложений.  
+Основной фокус — чистая архитектура, удобный пользовательский интерфейс и практическое применение современных технологий.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+На сайте представлены информация обо мне, профессиональные навыки, проекты и материалы, связанные с веб-разработкой.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 💼 Профессиональные интересы
 
-To learn more about Next.js, take a look at the following resources:
+- Frontend-разработка
+- Современные JavaScript-фреймворки
+- UI / UX
+- Архитектура клиентских приложений
+- Образовательные и практические проекты
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 Навыки и технологии
 
-## Deploy on Vercel
+- JavaScript (ES6+)
+- TypeScript
+- React
+- Next.js
+- HTML5 / CSS3
+- Tailwind CSS
+- Git / GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 Персональный сайт
+
+На сайте **https://aybekkun.uz/** вы можете найти:
+
+- информацию обо мне;
+- мои проекты и практические работы;
+- профессиональный и образовательный контент;
+- актуальные обновления и материалы.
+
+---
+
+## 📬 Контакты
+
+Все актуальные способы связи и социальные сети доступны на сайте:  
+👉 https://aybekkun.uz/
+
+---
+
+## 📌 Примечание
+
+Данный репозиторий используется как информационная точка и может обновляться по мере профессионального развития.
